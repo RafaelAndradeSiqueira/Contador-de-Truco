@@ -1,0 +1,157 @@
+body {
+    background: linear-gradient(45deg, #084177,#687466,#cd8d7b,#fbc490);
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Fragment Mono', monospace;
+    display:block;
+    background-color: gray;
+    height: 650px;
+    
+}
+
+#timeA {
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+#timeB {
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#ganhador {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+#zerar {
+    margin-top: 25px;
+}
+
+#A1 {
+    border: yellow;
+    background-color: rgb(21, 20, 20);
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 30px;
+}
+
+#B1 {
+    border: yellow;
+    background-color: rgb(21, 20, 20);
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 30px;
+}
+
+#A2 {
+    border: yellow;
+    background-color: rgb(21, 20, 20);
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 30px;
+}
+
+#B2 {
+    border: yellow;
+    background-color: rgb(21, 20, 20);
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 30px;
+}
+
+#zerar {
+    border: yellow;
+    background-color: rgb(21, 20, 20);
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-size: 30px;
+}
+
+
+#bloco {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    body {
+        display: inline-block;
+        text-align: center;
+        height: 750px;
+    }
+
+    #timeA {
+        display: inline-block;
+        text-align: center;
+        font-size: 22px;
+        margin-left: 45%;
+        font-weight: bold;
+    }
+    #timeB {
+        display: inline-block;
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-left: 45%;
+    }
+    #ganhador {
+        font-size: 22px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-left: 45%;
+    }
+    #zerar {
+        border: yellow;
+        background-color: rgb(21, 20, 20);
+        color: white;
+        padding: 10px 15px 10px 15px;
+        font-size: 30px;
+        margin-left: 44%;
+    }
+    #A1 {
+        border: yellow;
+        background-color: rgb(21, 20, 20);
+        color: white;
+        padding: 10px 15px 10px 15px;
+        font-size: 30px;
+        display: inline-block;        
+    }
+    
+    #B1 {
+        border: yellow;
+        background-color: rgb(21, 20, 20);
+        color: white;
+        padding: 10px 15px 10px 15px;
+        font-size: 30px;
+        display: block; 
+        margin-left: 22%;
+        
+    }
+    
+    #A2 {
+        border: yellow;
+        background-color: rgb(21, 20, 20);
+        color: white;
+        padding: 10px 15px 10px 15px;
+        font-size: 30px;
+        margin-top: 8%;
+        display: inline-block; 
+    }
+    
+    #B2 {
+        border: yellow;
+        background-color: rgb(21, 20, 20);
+        color: white;
+        padding: 10px 15px 10px 15px;
+        font-size: 30px;
+        margin-top: 8%;
+        display: inline-block; 
+    }
+}
